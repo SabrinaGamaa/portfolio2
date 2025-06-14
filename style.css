@@ -1,0 +1,148 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #2b2d42;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background-color: #8d99ae;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #ef233c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #d90429;
+}
+
+/* Seções */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Projetos */
+.projeto {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.projeto h3 {
+    margin-bottom: 10px;
+}
+
+.projeto a {
+    color: #ef233c;
+    text-decoration: none;
+}
+
+.projeto a:hover {
+    text-decoration: underline;
+}
+
+/* Contato */
+.contato ul {
+    list-style: none;
+    text-align: center;
+}
+
+.contato ul li {
+    margin: 10px 0;
+}
+
+.contato a {
+    color: #ef233c;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2b2d42;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+}
