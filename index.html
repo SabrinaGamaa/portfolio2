@@ -1,81 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sabrina Gama | Desenvolvedora Backend</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina Gama</title>
+    
+    <link rel="shortcut icon" href="assents/img/sabrina.jpg" type="image/png">
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
+    <link rel="stylesheet" href="assents/css/home.css">
+    <link rel="stylesheet" href="assents/css/style.css">
+    <link rel="shortcut icon" href="assents/images/favicon.png" type="image/x-png">
+
 </head>
 <body>
-
-    <nav>
-        <a href="index.html">Sabrina Gama</a>
-
-        <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-
-            <div id="js-hamburger" class="hamburger">
-            <span class="first"></span>
-            <span class="second"></span>
-            <span class="third"></span>
+    <div class="parallax-container" id="home">
+        <div class="parallax">
+            <section class="center">
+                <div id="particles-js"></div>
+            </section>
+        </div>
+    </div>
+    <center>
+        <!-- Home Section -->
+        <div class="text col-sm-6 pt-5 mt-5 mb-5">
+            Oi <span class="wave">👋</span>
+            , Eu sou a <span class="header">Sabrina Gama</span>
+            <div class="center">
+                <div>
+                    <img src="assents/img/mulher.png" alt="" class="rounded-circle" height="200" width="200">
+                </div>
+                <br>
+                <span style="display: inline;">
+                    E sou apaixonada por <span class="animated-text" data-words="Desenvolvimento Back-End, APIs, Banco de Dados, Java & Python, Flask & Django, Soluções Tecnológicas"></span>
+                </span>
+                <div>
+                    <div class="social-icons">                               
+                        <a class="socialicon linkedin" href="https://www.linkedin.com/in/sabrina-gama/" target="_blank" rel="author">
+                        </a>
+                        <a class="socialicon github" href="https://github.com/SabrinaGamaa" target="_blank" rel="author"></a>
+                        <a class="socialicon instagram" href="https://www.instagram.com/sabrina_gama27" target="_blank" rel="author">
+                        </a>
+                    </div>
+                </div>
             </div>
-
         </div>
-    </nav>
+    </center>
 
-    <!-- Seção Home -->
-    <section class="home">
-        <h1>Sabrina Gama</h1>
-        <p>Desenvolvedora Backend</p>
-        <p>Python | Flask | Django | SQL | Java</p>
-    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
-    <!-- Seção Sobre -->
-    <section class="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Sou desenvolvedora backend apaixonada por resolver problemas com código. Tenho experiência com Python, Flask, Django, SQL e estou sempre buscando aprender e crescer na área de tecnologia.</p>
-    </section>
+    <!-- Conectar conta do Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/"></script> -->
 
-    <!-- Seção Skills -->
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-        <li>Python</li>
-        <li>Flask</li>
-        <li>Django</li>
-        <li>SQL</li>
-        <li>Java</li>
-        <li>Git & GitHub</li>
-        <li>APIs REST</li>
-        </ul>
-    </section>
+    <script src="assents/js/app.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- Seção Projetos -->
-    <section class="projetos">
-        <h2>Projetos</h2>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
 
-        <div class="projeto">
-        <h3>API Controle de Academia</h3>
-        <p>API REST em Flask para gerenciamento de alunos, planos e pagamentos.</p>
-        <a href="https://github.com/SabrinaGamaa/controle-academia" target="_blank">GitHub</a> |
-        <a href="#" target="_blank">Documentação</a>
-        </div>
-
-        <div class="projeto">
-        <h3>Bot de Trading para Deriv</h3>
-        <p>Bot que faz análise de mercado e tomada de decisão usando Machine Learning.</p>
-        <a href="https://github.com/SabrinaGamaa/bot-deriv" target="_blank">GitHub</a>
-        </div>
-
-        <!-- Adiciona outros projetos aqui -->
-    </section>
-
-    <!-- Seção Contato -->
-    <section class="contato">
-        <h2>Contato</h2>
-        <p><a href="https://github.com/SabrinaGamaa" target="_blank">GitHub</a></p>
-        <p><a href="https://linkedin.com/in/sabrina-gama" target="_blank">LinkedIn</a></p>
-        <p><a href="mailto:sabrina@email.com">sabrina@email.com</a></p>
-    </section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="assents/js/particle.js"></script>
 
 </body>
 </html>
