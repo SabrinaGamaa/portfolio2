@@ -99,6 +99,10 @@ body {
   background-color: var(--bg);
 }
 
+.centralizar {
+  text-align: center;
+}
+
 /* Top button */
 
 /* smooth scrolling to top */
