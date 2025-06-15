@@ -83,23 +83,20 @@ const showCards = () => {
 document.addEventListener("DOMContentLoaded", showCards);
 
 function myFunction() {
-    // Declare variables
-    var input, button, i, skillcard, card, title;
-    input = document.getElementById("myInput").value;
-    input = input.toUpperCase();
-    skillcard = document.getElementsByClassName("skill-card");
-    card = document.getElementsByClassName("card");
-    button = document.getElementsByClassName("tagbutton");
-    title = document.getElementsByClassName("title");
+    const input = document.getElementById("myInput").value.toUpperCase();
+    const cards = document.getElementsByClassName("skill-card");
 
-    // Loop through all list items, and hide those who don't match the search query
-    for (i = 0; i < button.length; i++) {
-        if (button[i].innerHTML.toUpperCase().includes(input) || title[i].innerHTML.toUpperCase().includes(input)) {
-            skillcard[i].style.display = "";
-            card[i].style.display = "";
+    for (let i = 0; i < cards.length; i++) {
+        const title = cards[i].querySelector(".title").innerText.toUpperCase();
+        const tags = cards[i].querySelectorAll(".tagbutton span");
+
+        let tagsText = "";
+        tags.forEach(tag => tagsText += tag.innerText.toUpperCase() + " ");
+
+        if (title.includes(input) || tagsText.includes(input)) {
+            cards[i].style.display = "";
         } else {
-            skillcard[i].style.display = "none";
-            card[i].style.display = "none";
+            cards[i].style.display = "none";
         }
     }
 }
