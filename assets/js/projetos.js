@@ -4,48 +4,48 @@ const projectcards = document.querySelector(".projectcards");
 
 // Object with tag name as key and their respective image as value
 const tagImages = {
-    "Java": "assents/img/java.png",
-    "Python": "assents/img/pitao.png",
-    "SQL": "assents/img/base-de-dados.png",
-    "Django": "assents/img/django.png",
-    "API": "assents/img/api.png",
+    "Java": "assets/img/java.png",
+    "Python": "assets/img/pitao.png",
+    "SQL": "assets/img/base-de-dados.png",
+    "Django": "assets/img/django.png",
+    "API": "assets/img/api.png",
 }
 
 // Array of object for projects
 const projects = [{
     title: "Cadastro Academia",
-    cardImage: "assents/img/telaInicial.PNG",
+    cardImage: "assets/img/telaInicial.PNG",
     description: "Demostração de um sistema de Academia",
     tags: ["Java"],
-    tagimg: "assents/img/telaInicial.PNG",
+    tagimg: "assets/img/telaInicial.PNG",
     Githublink: "https://github.com/SabrinaGamaa/A3-Academia",
 }, {
     title: "Spring Boot JPA",
-    cardImage: "assents/img/orders.PNG",
+    cardImage: "assets/img/orders.PNG",
     description: "Uma API RESTful em Java construída com Spring Boot, utilizando JPA / Hibernate como solução de persistência.",
     tags: ["Java", "API"],
-    tagimg: "assents/img/orders.PNG",
+    tagimg: "assets/img/orders.PNG",
     Githublink: "https://github.com/SabrinaGamaa/SpringBoot-JPA",
 }, {
     title: "Notificação de Terremoto na Asia",
     cardImage: "https://github.com/SabrinaGamaa/API-alert/raw/master/imagens/telegram.jpeg",
     description: "Monitoram e alertam sobre terremotos detectados, enviando notificações tanto por Telegram quanto via SMS.",
     tags: ["Python", "API"],
-    tagimg: "assents/img/orders.PNG",
+    tagimg: "assets/img/orders.PNG",
     Githublink: "https://github.com/SabrinaGamaa/API-alert",
 }, {
     title: "Trading Bot com WebSocket - Deriv",
-    cardImage: "assents/img/api-deriv1.png",
+    cardImage: "assets/img/api-deriv1.png",
     description: "Analisa e realizar apostas automaticamente no mercado R_100. Com este bot, você pode acompanhar o saldo da conta e executar operações com base em condições específicas do mercado",
     tags: ["Python", "API"],
-    tagimg: "assents/img/orders.PNG",
+    tagimg: "assets/img/orders.PNG",
     Githublink: "https://github.com/SabrinaGamaa/API-deriv",
 }, {
     title: "Buscador de CEP e Endereço",
     cardImage: "https://github.com/SabrinaGamaa/Cep/raw/main/encontrar_endereco.png",
     description: "Ao buscar um endereço (com UF, cidade e logradouro), o programa retorna uma lista de CEPs encontrados que correspondem ao endereço informado",
     tags: ["Python", "API"],
-    tagimg: "assents/img/orders.PNG",
+    tagimg: "assets/img/orders.PNG",
     Githublink: "https://github.com/SabrinaGamaa/Cep",
 }];
 
