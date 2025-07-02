@@ -13,6 +13,13 @@ const tagImages = {
 
 // Array of object for projects
 const projects = [{
+    title: "Blog com Django",
+    cardImage: "assets/img/home2.png",
+    description: "Aplicação web com Django focada em mensagens privadas entre usuários, usando criptografia com Fernet e interações dinâmicas com HTMX.",
+    tags: ["Python"],
+    tagimg: "assets/img/home2.png",
+    Githublink: "https://github.com/SabrinaGamaa/EstudosDjango",
+}, {
     title: "Cadastro Academia",
     cardImage: "assets/img/telaInicial.PNG",
     description: "Demostração de um sistema de Academia",

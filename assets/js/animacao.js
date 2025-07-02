@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const greeting = {
     resumeLink:
-        'https://drive.google.com/file/d/1dGypP90h-VrXlxkZ4L7RvXqfQBYW2RUs/view?usp=sharing', // Link do currículo (PDF, Google Drive, etc.)
+        'https://drive.google.com/file/d/1bAd1zSWx_SSc6plYUh5nL-sm8lfNbiZX/view?usp=sharing', // Link do currículo (PDF, Google Drive, etc.)
     displayGreeting: true, // Mostra ou esconde essa seção
 };
 if (greeting.displayGreeting) {
@@ -186,7 +186,7 @@ if (greeting.displayGreeting) {
 
 const certi = {
     resumeLink:
-        'https://drive.google.com/file/d/1dGypP90h-VrXlxkZ4L7RvXqfQBYW2RUs/view?usp=sharing', // Link do currículo (PDF, Google Drive, etc.)
+        'https://drive.google.com/file/d/1bAd1zSWx_SSc6plYUh5nL-sm8lfNbiZX/view?usp=sharing', // Link do currículo (PDF, Google Drive, etc.)
     displayGreeting: true, // Mostra ou esconde essa seção
 };
 if (certi.displayGreeting) {
