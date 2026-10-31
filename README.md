@@ -43,6 +43,6 @@ assets/
   js/                      Idiomas, tema, navegação e interações
 ```
 
-O currículo em PDF está em `assets/documentos/sabrinaGama.pdf` e pode ser baixado pelo modal da seção de currículo.
+O PDF do currículo está temporariamente indisponível enquanto preparo uma versão válida. O modal da seção de currículo oferece contato por e-mail, sem vincular um arquivo inválido.
 
 O projeto Scodit é apresentado somente pela demonstração pública, com dados fictícios e informações anonimizadas. Seu código-fonte privado não é vinculado pelo portfólio.
