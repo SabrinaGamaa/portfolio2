@@ -1,6 +1,6 @@
-import { applyLanguage, getCurrentLanguage } from './i18n.js?v=resume-ready-20261031';
-import { initNavigation } from './nav.js?v=resume-ready-20261031';
-import { initTheme } from './theme.js?v=resume-ready-20261031';
+import { applyLanguage, getCurrentLanguage } from './i18n.js?v=projects-accuracy-20261031';
+import { initNavigation } from './nav.js?v=projects-accuracy-20261031';
+import { initTheme } from './theme.js?v=projects-accuracy-20261031';
 
 function initPortfolio() {
   initNavigation();

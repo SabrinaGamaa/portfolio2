@@ -5,14 +5,12 @@
 }
 
 html {
-  min-width: 320px;
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-height) + 1rem);
   background: var(--color-bg);
 }
 
 body {
-  min-width: 320px;
   margin: 0;
   background: var(--color-bg);
   color: var(--color-text);
