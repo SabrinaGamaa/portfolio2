@@ -1,6 +1,6 @@
-import { applyLanguage, getCurrentLanguage } from './i18n.js';
-import { initNavigation } from './nav.js';
-import { initTheme } from './theme.js';
+import { applyLanguage, getCurrentLanguage } from './i18n.js?v=3e415a9';
+import { initNavigation } from './nav.js?v=3e415a9';
+import { initTheme } from './theme.js?v=3e415a9';
 
 function initPortfolio() {
   initNavigation();
