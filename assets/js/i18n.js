@@ -1,5 +1,3 @@
-import { qsa } from './utils.js';
-
 const translations = {
   pt: {
     siteTitle: 'Sabrina Gama — Desenvolvedora back-end em formação',
@@ -169,12 +167,12 @@ export function applyLanguage(language) {
   const strings = translations[currentLanguage];
   document.documentElement.lang = currentLanguage === 'pt' ? 'pt-BR' : 'en';
 
-  qsa('[data-i18n]').forEach((element) => {
+  document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = strings[element.dataset.i18n];
     if (value !== undefined) element.textContent = value;
   });
 
-  qsa('[data-i18n-aria-label]').forEach((element) => {
+  document.querySelectorAll('[data-i18n-aria-label]').forEach((element) => {
     const value = strings[element.dataset.i18nAriaLabel];
     if (value !== undefined) element.setAttribute('aria-label', value);
   });
