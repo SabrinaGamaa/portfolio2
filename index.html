@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta id="theme-color" name="theme-color" content="#141714">
-  <meta id="meta-description" name="description" content="Portfólio de Sabrina Gama, estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento back-end, APIs e projetos em Python e Java.">
+  <meta id="meta-description" name="description" content="Portfólio de Sabrina Gama, estudante de Análise e Desenvolvimento de Sistemas com projetos em Python, Java e JavaScript.">
   <meta property="og:type" content="website">
   <meta id="og-title" property="og:title" content="Sabrina Gama — Desenvolvedora back-end em formação">
   <meta id="og-description" property="og:description" content="Projetos, tecnologias e trajetória de Sabrina Gama.">
@@ -15,9 +15,9 @@
   <link rel="icon" href="assets/img/foto-sabrina.jpg" type="image/jpeg">
   <link rel="preload" href="assets/img/foto-sabrina.jpg" as="image" fetchpriority="high">
   <link rel="stylesheet" href="assets/css/variables.css">
-  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/global.css?v=projects-accuracy-20261031">
   <link rel="stylesheet" href="assets/css/components.css">
-  <link rel="stylesheet" href="assets/css/sections.css">
+  <link rel="stylesheet" href="assets/css/sections.css?v=projects-accuracy-20261031">
   <title>Sabrina Gama — Desenvolvedora back-end em formação</title>
   <script>
     const savedTheme = localStorage.getItem('portfolio-theme');
@@ -25,7 +25,7 @@
       document.documentElement.dataset.theme = savedTheme;
     }
   </script>
-  <script type="module" src="assets/js/main.js?v=resume-ready-20261031"></script>
+  <script type="module" src="assets/js/main.js?v=projects-accuracy-20261031"></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content" data-i18n="skipLink">Pular para o conteúdo</a>
@@ -109,7 +109,7 @@
         <div class="section-heading reveal">
           <p class="eyebrow section-number"><span>02</span><span data-i18n="skillsEyebrow">FERRAMENTAS E CONHECIMENTOS</span></p>
           <h2 id="skills-title" data-i18n="skillsTitle">Uma base em construção.</h2>
-          <p class="section-intro" data-i18n="skillsIntro">Tecnologias que venho aplicando nos estudos e projetos — sem barras de nível, só prática e aprendizado contínuo.</p>
+          <p class="section-intro" data-i18n="skillsIntro">Tecnologias que venho estudando e aplicando em projetos — uma base em construção, sem níveis de proficiência declarados.</p>
         </div>
         <div class="skills-grid">
           <article class="skill-group reveal">
@@ -130,7 +130,7 @@
             <span class="skill-index">C</span>
             <h3 data-i18n="skillsConcepts">Conceitos e ferramentas</h3>
             <ul class="tag-list" aria-label="Conceitos e ferramentas" data-i18n-aria-label="conceptsList">
-              <li>APIs REST</li><li>WebSocket</li><li>SQLite</li><li data-i18n="skillDatabases">Bancos de dados</li>
+              <li>APIs REST</li><li>WebSocket</li><li>JPA</li><li>SQLite</li><li>PostgreSQL</li><li>MySQL</li>
             </ul>
           </article>
         </div>
@@ -149,15 +149,35 @@
 
         <div class="project-grid">
           <article class="project-card reveal">
-            <div class="project-visual project-visual-type" aria-hidden="true">
-              <span class="visual-kicker">01 — PYTHON / SQLITE</span>
-              <span class="visual-title">Agenda<span class="visual-period">.</span></span>
-              <span class="visual-note" data-i18n="agendaVisual">DEMO DISPONÍVEL</span>
+            <div class="project-gallery" aria-label="Demonstrações visuais do Agenda" data-i18n-aria-label="agendaGallery">
+              <figure class="project-gallery-item">
+                <div class="project-image-wrap">
+                  <img src="assets/gifs/agenda/Animação1.gif" alt="Tela do calendário e tarefas recorrentes do Agenda" data-i18n-alt="agendaCalendarAlt" width="960" height="497" loading="lazy" decoding="async">
+                </div>
+                <figcaption data-i18n="agendaCalendarCaption">CALENDÁRIO E RECORRÊNCIA</figcaption>
+              </figure>
+              <figure class="project-gallery-item">
+                <div class="project-image-wrap">
+                  <img src="assets/gifs/agenda/Animação2.gif" alt="Tela de metas e etapas do Agenda" data-i18n-alt="agendaGoalsAlt" width="960" height="496" loading="lazy" decoding="async">
+                </div>
+                <figcaption data-i18n="agendaGoalsCaption">METAS E ETAPAS</figcaption>
+              </figure>
+              <figure class="project-gallery-item">
+                <div class="project-image-wrap">
+                  <img src="assets/gifs/agenda/Animação3.gif" alt="Tela de receitas, despesas e relatórios financeiros do Agenda" data-i18n-alt="agendaFinanceAlt" width="960" height="496" loading="lazy" decoding="async">
+                </div>
+                <figcaption data-i18n="agendaFinanceCaption">FINANÇAS PESSOAIS</figcaption>
+              </figure>
             </div>
             <div class="project-content">
               <div class="project-title-row"><h3>Agenda</h3><span class="project-number">01</span></div>
-              <p data-i18n="agendaDescription">Aplicação para organizar tarefas e contatos, desenvolvida em Python com persistência em SQLite.</p>
-              <ul class="project-tags" aria-label="Tecnologias do projeto Agenda" data-i18n-aria-label="agendaTags"><li>Python</li><li>SQLite</li></ul>
+              <p data-i18n="agendaDescription">Aplicação web de organização pessoal que reúne calendário, tarefas recorrentes, metas e finanças, com dados salvos no navegador.</p>
+              <ul class="project-highlights" aria-label="Recursos do projeto Agenda" data-i18n-aria-label="agendaHighlights">
+                <li data-i18n="agendaHighlightRecurrence">Regras de recorrência, alterações pontuais e tarefas que atravessam a meia-noite.</li>
+                <li data-i18n="agendaHighlightFinance">Metas por etapas, controle de receitas e despesas e estimativas financeiras.</li>
+                <li data-i18n="agendaHighlightTests">Módulos JavaScript e testes automatizados para regras de negócio.</li>
+              </ul>
+              <ul class="project-tags" aria-label="Tecnologias do projeto Agenda" data-i18n-aria-label="agendaTags"><li>JavaScript</li><li>HTML5</li><li>CSS3</li><li>ES Modules</li><li>LocalStorage</li><li>Testes automatizados</li></ul>
               <div class="project-links">
                 <a href="https://sabrinagamaa.github.io/Agenda/" target="_blank" rel="noopener noreferrer"><span data-i18n="projectDemo">Demonstração</span><span aria-hidden="true">↗</span></a>
                 <a href="https://github.com/SabrinaGamaa/Agenda" target="_blank" rel="noopener noreferrer"><span data-i18n="projectRepository">Repositório</span><span aria-hidden="true">↗</span></a>
@@ -166,15 +186,18 @@
           </article>
 
           <article class="project-card reveal" data-reveal-delay="70">
-            <div class="project-visual project-visual-type project-visual-scodit" aria-hidden="true">
-              <span class="visual-kicker">02 — PYTHON / FLASK</span>
-              <span class="visual-title">Scodit<span class="visual-period">.</span></span>
-              <span class="visual-note" data-i18n="scoditVisual">AMBIENTE DEMONSTRATIVO</span>
+            <div class="project-image-wrap">
+              <img src="assets/gifs/scodit/TelaInicial.gif" alt="Demonstração do painel Scodit com pedidos, separação e entregas" data-i18n-alt="scoditImageAlt" width="960" height="496" loading="lazy" decoding="async">
+              <span class="image-label" data-i18n="scoditImageLabel" aria-hidden="true">PAINEL DE OPERAÇÕES</span>
             </div>
             <div class="project-content">
               <div class="project-title-row"><h3>Scodit</h3><span class="project-number">02</span></div>
-              <p data-i18n="scoditDescription">Versão demonstrativa com dados fictícios e informações anonimizadas. O código-fonte é privado.</p>
-              <ul class="project-tags" aria-label="Tecnologias do projeto Scodit" data-i18n-aria-label="scoditTags"><li>Python</li><li>Flask</li><li>API</li></ul>
+              <p data-i18n="scoditDescription">Aplicação Django para logística em saúde que centraliza o ciclo de pedidos, da separação à entrega, e dá visibilidade a status e produtividade. Projeto em equipe; fui responsável individualmente pela implementação. Demonstração com dados fictícios e informações anonimizadas; código-fonte privado.</p>
+              <ul class="project-highlights" aria-label="Recursos do projeto Scodit" data-i18n-aria-label="scoditHighlights">
+                <li data-i18n="scoditHighlightOrders">Painel de pedidos, status e tempo de separação com indicadores de produtividade.</li>
+                <li data-i18n="scoditHighlightDelivery">Gestão de entregas e visualização de unidades no mapa, com permissões por setor.</li>
+              </ul>
+              <ul class="project-tags" aria-label="Tecnologias do projeto Scodit" data-i18n-aria-label="scoditTags"><li>Python</li><li>Django</li><li>SQLite</li><li>Tailwind CSS</li><li>Alpine.js</li><li>Leaflet</li></ul>
               <div class="project-links">
                 <a href="https://sabrinagama.alwaysdata.net/" target="_blank" rel="noopener noreferrer"><span data-i18n="projectDemo">Demonstração</span><span aria-hidden="true">↗</span></a>
               </div>
@@ -218,7 +241,7 @@
             </div>
             <div class="project-content">
               <div class="project-title-row"><h3>A3-Academia</h3><span class="project-number">05</span></div>
-              <p data-i18n="academyDescription">Sistema acadêmico para academia, com cadastro e gerenciamento de treinos, desenvolvido em Java Swing.</p>
+              <p data-i18n="academyDescription">Projeto acadêmico em grupo: sistema para cadastro e gerenciamento de treinos de uma academia, desenvolvido em Java Swing.</p>
               <ul class="project-tags" aria-label="Tecnologias do projeto A3-Academia" data-i18n-aria-label="academyTags"><li>Java</li><li>Java Swing</li></ul>
               <div class="project-links">
                 <a href="https://github.com/SabrinaGamaa/A3-Academia" target="_blank" rel="noopener noreferrer"><span data-i18n="projectRepository">Repositório</span><span aria-hidden="true">↗</span></a>
