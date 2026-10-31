@@ -1,0 +1,37 @@
+:root {
+  color-scheme: dark;
+  --color-bg: #141714;
+  --color-bg-raised: #1b1f1a;
+  --color-bg-soft: #222720;
+  --color-text: #f1f0e9;
+  --color-text-muted: #a4a99e;
+  --color-text-subtle: #94998f;
+  --color-accent: #d9ff76;
+  --color-accent-ink: #1b2110;
+  --color-border: rgba(232, 238, 220, 0.13);
+  --color-border-strong: rgba(232, 238, 220, 0.27);
+  --color-header: rgba(20, 23, 20, 0.88);
+  --shadow-card: 0 18px 50px rgba(0, 0, 0, 0.15);
+  --font-sans: "Aptos", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --container-width: 1160px;
+  --header-height: 78px;
+  --radius-card: 8px;
+  --ease-out: cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --color-bg: #f6f7f1;
+  --color-bg-raised: #ffffff;
+  --color-bg-soft: #eef0e8;
+  --color-text: #22251f;
+  --color-text-muted: #5e655a;
+  --color-text-subtle: #686f63;
+  --color-accent: #526e20;
+  --color-accent-ink: #ffffff;
+  --color-border: rgba(31, 39, 27, 0.12);
+  --color-border-strong: rgba(31, 39, 27, 0.25);
+  --color-header: rgba(246, 247, 241, 0.9);
+  --shadow-card: 0 18px 50px rgba(43, 49, 37, 0.08);
+}
